@@ -1,3 +1,7 @@
+
+navigator.serviceWorker.register('/CalculoJuntaMotor/sw.js')
+
+
 function Calcular() {
 	var objVbb = document.getElementById("Vbb");
 	var objVt  = document.getElementById("Vt");
